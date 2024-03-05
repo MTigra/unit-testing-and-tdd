@@ -18,4 +18,12 @@ public class Branch {
     public Collection<Branch> getChildren() {
         return null; //TODO
     }
+
+    public int getId() {
+        throw new NoSuchMethodError();
+    }
+
+    public double getAccountSum() {
+        throw new NoSuchMethodError();
+    }
 }
